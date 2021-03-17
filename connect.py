@@ -10,8 +10,9 @@ Exercises
 
 """
 
-from turtle import done, onscreenclick, tracer, hideturtle, \
-    setup, update, dot, goto, up, bgcolor
+from turtle import bgcolor, up, goto, \
+    dot, update, up, goto, setup, hideturtle, \
+    tracer, onscreenclick
 from freegames import line
 
 turns = {'red': 'yellow', 'yellow': 'red'}
