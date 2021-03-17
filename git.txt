@@ -1,0 +1,6 @@
+//Para clonar el repositorio de github:
+git clone ruta_repositorio
+
+//Para saber cuál es el estado del repositorio:
+git status
+
