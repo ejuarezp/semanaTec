@@ -32,3 +32,23 @@ git branch
 
 //Para crear una nueva rama:
 git checkout -b nombre_nueva_rama
+
+//Para actualizar una rama con la versión de github:
+git pull
+
+//Para juntar una rama con otra (Desde la rama donde se va a juntar la otra)
+git merge nombre_rama_a_juntar
+
+//Ciclo común de trabajo:
+//(rama) [comando]
+(develop) git pull
+(develop) git checkput -b nombre/nueva_rama
+(nueva_rama) //Trabajo en la nueva rama
+(nueva_rama) git add -A 
+(nueva_rama) git commit -m "descripción de los cambios"
+(nueva_rama) git push //opcional
+(nueva_rama) git checkout develop
+(develop) git pull
+(develop) git merge nueva_rama
+//Si hay conflictos, arreglarlos y hacer commit 
+(develop) git push
