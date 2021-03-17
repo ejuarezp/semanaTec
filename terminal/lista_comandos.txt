@@ -1,0 +1,7 @@
+ls: Listar los contenidos de un directorio
+cd: Cambiar de directorio
+pwd: Ver la ruta del directorio actual
+mkdir: Crear un directorio
+touch: Crear un archivo
+man: Manual de un comando
+cat: Concatenar un archivo en la terminal o en otro archivo
