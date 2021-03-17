@@ -39,6 +39,9 @@ git pull
 //Para juntar una rama con otra (Desde la rama donde se va a juntar la otra)
 git merge nombre_rama_a_juntar
 
+//Para eliminar una rama:
+git branch -D nombre_rama
+
 //Ciclo común de trabajo:
 //(rama) [comando]
 (develop) git pull
