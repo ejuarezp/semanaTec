@@ -4,3 +4,14 @@ git clone ruta_repositorio
 //Para saber cuál es el estado del repositorio:
 git status
 
+//Para rastrear archivos
+git add nombre_archivo
+
+//Para rastrear todos los archivos
+git add -A 
+
+//Para guardar los cambios
+git commit -m "mensaje descriptivo de los cambios"
+
+//Para mandar los cambios a github
+git push
