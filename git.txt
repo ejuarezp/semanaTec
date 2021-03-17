@@ -20,3 +20,15 @@ git push
 git add -A 
 git commit -m "descripción del cambio"
 git push
+
+
+//-----------------R A M A S----------------------
+
+//Para cambiar de rama:
+git checkout nombre_rama
+
+//Para listar las ramas:
+git branch
+
+//Para crear una nueva rama:
+git checkout -b nombre_nueva_rama
