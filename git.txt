@@ -15,3 +15,8 @@ git commit -m "mensaje descriptivo de los cambios"
 
 //Para mandar los cambios a github
 git push
+
+//En resumen, cada que hagamos un cambio importante:
+git add -A 
+git commit -m "descripción del cambio"
+git push
